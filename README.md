@@ -1,2 +1,4 @@
 # EC2B1
-Analysis of the Japanese economy and its long-term economic growth indicators
+
+The main code is inside the notebook code.ipynb
+
