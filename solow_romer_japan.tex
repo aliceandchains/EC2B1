@@ -1,0 +1,106 @@
+
+\section*{The Solow-Romer Puzzle: Japan's Growth and Stagnation}
+
+\subsection*{Abstract}
+This paper examines the long-run economic development of Japan, focusing on the roles of capital accumulation, labour productivity, and total factor productivity (TFP). Using regression models, we identify key phases of growth and stagnation, highlighting Japan's rapid post-war recovery, industrialisation, and subsequent economic stagnation. Growth accounting reveals that TFP played a dominant role in driving GDP growth between 1950 and 2000. The Solow model effectively explains Japan's early growth through capital deepening and convergence dynamics but fails to account for post-2000 stagnation. We evaluate the Romer model's applicability in explaining Japan's innovation slowdown and inefficient capital allocation.
+
+\subsection*{Research Method and Trend Analysis}
+For the GDP trends, we used additive linear, additive quadratic, exponential, and exponential quadratic regression models to plot trendlines. The four regressions are given by:
+
+\begin{align*}
+(1)\quad y_t &= \beta_0 + \beta_1 t + u_t \\
+(2)\quad y_t &= \beta_0 + \beta_1 t + \beta_2 t^2 + u_t \\
+(3)\quad \log y_t &= \beta_0 + \beta_1 t + u_t \\
+(4)\quad \log y_t &= \beta_0 + \beta_1 t + \beta_2 t^2 + u_t
+\end{align*}
+
+The two additive regressions for real GDP produce similar fitted trends, where the coefficient of determination, $R^2$, is 0.903 and 0.831 for linear and quadratic regressions, respectively. The trendlines after 1960 closely resemble actual real GDP values, though the additive quadratic model predicts negative GDP for 1950--1952.
+
+The exponential regressions yield different results. The purely exponential model overestimates GDP from 1950 to 1965, underestimates it until 2000, then overestimates again. The exponential quadratic regression provides the best fit with $R^2 = 0.995$, though it erroneously predicts falling GDP after 2010.
+
+Per capita regressions produce similar results. The exponential quadratic regression again provides the closest fit, while the additive linear model has improved fit for real GDP per capita ($R^2 = 0.970$). Splitting the sample into four periods (1950--1973, 1973--1990, 1990--2010, and 2010--2019) could improve analysis.
+
+\subsection*{Growth Accounting}
+\begin{table}[h!]
+\centering
+\caption{Growth accounting by decade}
+\begin{tabular}{lcccc}
+\toprule
+Subperiod & Capital (\%) & Labour (\%) & TFP (\%) & GDP Growth (\%) \\
+\midrule
+1950--1960 & 21.53 & 28.19 & 50.28 & 78.43 \\
+1960--1970 & 35.03 & 15.78 & 49.18 & 97.02 \\
+1970--1980 & 41.03 & 17.75 & 41.22 & 58.66 \\
+1980--1990 & 35.01 & 25.74 & 39.26 & 39.83 \\
+1990--2000 & 34.00 & 16.05 & 49.95 & 27.88 \\
+2000--2010 & 46.67 & 56.94 & --3.61 & 5.62 \\
+2010--2019 & --84.90 & --390.84 & 575.74 & --1.53 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+TFP was the dominant contributor to GDP growth from 1950 to 2000. The 1960s saw the highest GDP growth, with TFP contributing nearly 50\%. From 2000 onward, both capital and labour faced diminishing returns, and TFP stagnated or declined.
+
+\begin{align*}
+(4)\quad \text{GDP Growth} &= \text{TFP Contr.} + K + L \\
+(5)\quad \text{GDP per capita growth} &= \text{TFP Contr.} + K - L_{\text{growth}} \quad \text{(population effect)}
+\end{align*}
+
+Japan's post-war population growth (from 84M to 128M) explains why GDP outpaced GDP per capita. Despite capital deepening and technological advances, demographic shifts—including ageing and low fertility—restricted labour force expansion and reduced productivity growth.
+
+Post-war TFP gains were driven by reconstruction, western technology adoption, and industrialisation (e.g., Keiretsu system). Government support, MITI-led policies, and urbanisation also played major roles.
+
+During the lost decade (1990s), innovation slowed, zombie firms persisted, and risk-averse lending stifled capital efficiency, diminishing GDP growth and widening the GDP vs GDP per capita gap.
+
+\subsection*{Solow Model}
+The Solow model explains Japan's growth from 1950 to 1990 through capital accumulation and convergence dynamics. Between 1950--1973, capital deepening and TFP gains aligned with model predictions. Between 1973--1990, growth slowed due to diminishing returns.
+
+From 1990 onward, the model fails: capital misallocation, demographic decline, and stagnant TFP diverged from assumptions of constant technological progress and efficient investment.
+
+Despite high investment post-2000, demographic constraints, inefficiencies, and stagnant TFP undermined growth. Abenomics failed to reverse these trends. Thus, the Solow model lacks explanatory power for post-1990 Japan.
+
+\subsection*{TFP and Labour Productivity}
+TFP and labour productivity are typically positively correlated. TFP reflects efficiency in using capital and labour, while labour productivity is output per worker. Increases in TFP usually improve labour productivity.
+
+However, capital deepening can increase labour productivity even with stagnant TFP. Industrial structure and capital intensity shifts can cause divergence.
+
+In Japan, both TFP and labour productivity grew together from 1950--1990. Post-2000, they diverged: TFP stagnated while productivity rose in sectors like robotics. The post-1990 slowdown and subsequent stagnation reflect deeper structural issues not captured by Solow.
+
+\subsection*{Long-term Patterns}
+TFP and labour productivity aligned in Japan's high-growth decades, reflecting industrialisation, efficient capital allocation, and skilled labour. Oil shocks caused temporary dips, but growth resumed.
+
+Post-1990, productivity gains persisted briefly. After 2000, both stagnated. Figures show that investment no longer translated into gains. Demographics reduced labour supply, while innovation yields declined. Zombie firms exacerbated misallocation.
+
+Solow fails to capture these realities. TFP ceased to be the growth engine, showing the need for policies promoting innovation diffusion, labour reform, and capital reallocation.
+
+\subsection*{Romer Model}
+\begin{align*}
+(6)\quad \dot{A} &= \theta L_A^\lambda A^\phi \\
+(7)\quad L_A &= S_R L
+\end{align*}
+
+Romer's endogenous growth model focuses on innovation driven by R\&D labour (\(L_A\)) and knowledge spillovers. Between 1950--1990, Japan aligns well: industrial policies, R\&D investment, and capital deepening supported sustained TFP growth.
+
+Post-2000, despite continued R\&D spending, TFP stagnated. The assumptions of constant \(S_R\) and \(\phi\) do not hold: declining returns, demographic shifts, and misallocated capital disrupted the innovation-productivity link.
+
+A flexible Romer model with variable \(S_R\) and \(\phi\) better explains Japan's stagnation. Capital misallocation and zombie firms further hindered productivity, beyond the model's scope.
+
+\subsection*{Conclusion}
+The Solow model explains early growth through convergence and capital accumulation. The Romer model explains mid-century innovation-led expansion. However, post-2000 stagnation---driven by demographic decline, capital misallocation, and diminishing innovation returns---requires adaptations to both models.
+
+\subsection*{Bibliography}
+\begin{itemize}
+  \item Bahar et al. (2024). \textit{Japan's Economic Puzzle}. Harvard Growth Lab.
+  \item Baily, Bosworth, \& Doshi (2020). \textit{Productivity comparisons}. Brookings.
+  \item Caballero et al. (2008). \textit{Zombie Lending}. AER.
+  \item Callen \& Ostry (2003). \textit{Japan's Lost Decade}. IMF.
+  \item Clark et al. (2010). \textit{Population Decline and the Economy}. EJP.
+  \item Comin (2008). \textit{Total Factor Productivity}. Palgrave.
+  \item Fukao et al. (2014). \textit{Japan's Lost Decades}. Hitotsubashi.
+  \item Hayashi \& Prescott (2002). \textit{The 1990s in Japan}. RED.
+  \item Kyoji \& Hyeog (2005). \textit{TFP Slowdown in Japan}. RIETI.
+  \item Nakamura et al. (2019). \textit{R\&D Efficiency}. JEP.
+  \item Shackleton (2013). \textit{TFP in Historical Perspective}. CBO.
+  \item Shiohara (2023). \textit{The Japanese Economic Miracle}. BER.
+  \item CEIC Data. \textit{Japan Labour Force Participation Rate}.
+\end{itemize}
